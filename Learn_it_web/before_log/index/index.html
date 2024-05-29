@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnIT</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="LearnIT Logo">
+            <h1>LearnIT</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../about/about.html">About</a></li>
+                <li><a href="../partnerships/partnerships.html">Partnerships & Inquiries</a></li>
+                <li><a href="../educators/educators.html">For Educators & Nonprofits</a></li>
+                <li><a href="../login/login.html">Log In</a></li>
+                <li><a href="../login/signup.html" class="get-started">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Welcome to LearnIT!</h2>
+            <p>The App for <strong>motivated learners.</strong></p>
+            <div class="hero-buttons">
+                <a href="../login/signup.html" class="button getting started">Getting Started</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="index-front-img.avif" alt="Person using phone">
+        </div>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyDztjqxdDsA0OWggSBJz-CFgQE_OsbZQtw",
+          authDomain: "tutornow-cd69b.firebaseapp.com",
+          projectId: "tutornow-cd69b",
+          storageBucket: "tutornow-cd69b.appspot.com",
+          messagingSenderId: "686982975066",
+          appId: "1:686982975066:web:6c22312ef940f38c405263"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+</body>
+</html>
+
+
+<!--responsive at 1120 pixels horizontal-->
